@@ -16,7 +16,7 @@ function HeroSection() {
         </p>
         <a
           href="https://www.hostseba.com/aff.php?aff=1074"
-          className="bg-[#1062fe] text-white w-40 px-2 py-3 font-mono font-semibold rounded-md"
+          className="bg-[#1062fe] text-white w-24 px-2 py-3 font-mono font-semibold rounded-md"
         >
           Order Now
         </a>
