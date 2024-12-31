@@ -1,46 +1,28 @@
-import { React, useState } from "react";
-import { Link } from "react-router-dom";
-import "boxicons/css/boxicons.min.css"; // Import Boxicons CSS
-
-const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
+function Header() {
   return (
-    <header className="bg-[#00175f] text-slate-100 p-4">
-      <div className="container mx-auto flex justify-between items-center">
-        <div className="text-lg font-bold">
-          <i className="bx bx-globe"></i> My Website
-        </div>
-        <button
-          className="text-slate-100 sm:hidden focus:outline-none"
-          onClick={() => setIsOpen(!isOpen)}
+    <>
+      <header className="text-center bg-[#00175f] text-slate-100 font-semibold py-2">
+        Get Best Domain and Hosting{" "}
+        <a
+          href="https://www.hostseba.com/aff.php?aff=1074"
+          className="underline decoration-2 hover:text-red-600 duration-300"
         >
-          <i className={`bx ${isOpen ? "bx-x" : "bx-menu"} text-2xl`}></i>
-        </button>
-        <nav
-          className={`sm:flex flex-col sm:flex-row sm:space-x-6 items-center transition-all max-sm:absolute top-16 right-1 bg-[#00175f] px-6 duration-300 ${
-            isOpen ? "block" : "hidden"
-          } sm:block`}
-        >
-          <Link to="/" className="block sm:inline hover:text-blue-300 py-1">
-            Home
-          </Link>
-          
-          <Link
-            to="/service"
-            className="block sm:inline hover:text-blue-300 py-1"
-          >
-            Service
-          </Link>
-          <Link
-            to="/blogs"
-            className="block sm:inline hover:text-blue-300 py-1"
-          >
-            Blogs
-          </Link>
-        </nav>
+          Order Now
+        </a>
+      </header>
+
+      <div className="max-sm:flex justify-center items-center">
+        <aside className="mx-auto sm:w-[468px] overflow-hidden">
+          <a href="https://www.hostseba.com/aff.php?aff=1074" target="_blank">
+            <img
+              src="https://www.hostseba.com/images/affiliate-banners/468x60.jpg"
+              alt="hostseba.com"
+            />
+          </a>
+        </aside>
       </div>
-    </header>
+    </>
   );
-};
+}
 
 export default Header;

@@ -3,7 +3,7 @@ import Footer from "../../Components/Footer"
 function Blogs() {
   return (
     <>
-      <Header />;
+      <Header />
       <Footer />
     </>
   );
