@@ -10,7 +10,7 @@ function Header() {
           Order Now
         </a>
       </header>
-      <aside className="mx-auto w-[468px]">
+      <aside className="mx-auto w-[468px] overflow-hidden">
         <a href="https://www.hostseba.com/aff.php?aff=1074" target="_blank">
           <img
             src="https://www.hostseba.com/images/affiliate-banners/468x60.jpg"
