@@ -1,6 +1,6 @@
 function HeroSection() {
   return (
-    <div className="h-screen flex flex-col px-5 mt-10 sm:px-8 md:flex-row-reverse md:items-center md:mt-0 lg:mx-40 lg:px-0">
+    <div className="sm:h-screen flex flex-col px-5 mt-10 sm:px-8 md:flex-row-reverse md:items-center md:mt-0 lg:mx-40 lg:px-0 max-sm:mb-10">
       <div className="md:w-2/4 flex justify-center items-center">
         <img
           src="/download.png"
