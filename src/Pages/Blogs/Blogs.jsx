@@ -1,5 +1,12 @@
-function Blog() {
-  return <h1>Blog Page</h1>;
+import Header from "../../Components/Header";
+import Footer from "../../Components/Footer"
+function Blogs() {
+  return (
+    <>
+      <Header />;
+      <Footer />
+    </>
+  );
 }
 
-export default Blog;
+export default Blogs;
