@@ -2,10 +2,10 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
-import Home from "./Pages/Home/Home";
-import Service from "./Pages/Service/Service";
-import Blog from "./Pages/Blog/Blog";
-import Contact from "./Pages/Contact/Contact";
+import Home from "./Pages/Home/Home.jsx";
+import Service from "./Pages/Service/Service.jsx";
+import Blog from "./Pages/Blog/Blog.jsx";
+import Contact from "./Pages/Contact/Contact.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
