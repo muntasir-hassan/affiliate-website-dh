@@ -1,5 +1,4 @@
 import Header from "../../Components/Header";
-import Aside from "../../Components/Aside";
 import Footer from "../../Components/Footer";
 import data from "./data";
 import { Link } from "react-router-dom";
@@ -7,7 +6,7 @@ function Blogs() {
   return (
     <>
       <Header />
-      <div className="my-10 flex flex-col px-5 gap-4 md:grid grid-cols-2 lg:grid-cols-3 md:items-center md:justify-items-center md:px-10 lg:px-14 lg:mx-auto bg-[#f6f9fc] py-4">
+      <div className="h-screen flex flex-col px-5 gap-4 md:grid grid-cols-2 lg:grid-cols-3 md:items-center md:justify-items-center md:px-10 lg:px-14 lg:mx-auto bg-[#f6f9fc] py-4">
         {data.map((blog) => {
           return (
             <div
@@ -29,8 +28,6 @@ function Blogs() {
           );
         })}
       </div>
-      <Aside />
-      <div className="mb-10"></div>
       <Footer />
     </>
   );
