@@ -19,10 +19,10 @@ function Blog1() {
       <main className="max-sm:mx-2 sm:w-4/5 my-5 max-w-[800px] sm:mx-auto">
         <img
           src="/a-women-is-solving-a-hosting-provides-problem.jpeg"
-          alt=""
-          className="w-full"
+          alt="a women is solving a hosting provides problem"
+          width="100%"
         />
-        <h1 className="text-4xl mb-1 sm:text-5xl md:text-6xl font-semibold">
+        <h1 className="text-4xl mb-1 sm:text-5xl font-semibold">
           How to Choose the Perfect Domain Name for Your Business
         </h1>
         <p className="text-lg">
