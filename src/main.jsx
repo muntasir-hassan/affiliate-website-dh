@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import "./index.css";
 import Home from "./Pages/Home/Home.jsx";
 import Blogs from "./Pages/Blogs/Blogs.jsx";
-import Blog1 from "./Pages/Blogs/Blog 1/Blog1.jsx";
+import Blog1 from "./Pages/Blog 1/Blog1.jsx";
 
 // Google Analytics tracking hook
 const usePageTracking = () => {

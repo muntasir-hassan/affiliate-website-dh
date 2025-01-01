@@ -5,45 +5,9 @@ const data = [
     description:
       "Learn how to choose the perfect domain name for your business with these expert tips. Discover strategies to make your domain memorable, brandable, and SEO-friendly for success.",
     link: "/blogs/how-to-choose-the-perfect-domain-name-for-your-business",
-    imgSrc: "/car.png",
-    alt: "Nothing"
+    imgSrc: "/a-women-is-solving-a-hosting-provides-problem.jpeg",
+    alt: "Nothing",
   },
-  {
-    id: 2,
-    title: "How to Choose the Perfect Domain Name for Your Business",
-    description:
-      "Learn how to choose the perfect domain name for your business with these expert tips. Discover strategies to make your domain memorable, brandable, and SEO-friendly for success.",
-    link: "/blogs/how-to-choose-the-perfect-domain-name-for-your-business",
-    imgSrc: "/car.png",
-    alt: "Nothing"
-  },
-  {
-    id: 3,
-    title: "How to Choose the Perfect Domain Name for Your Business",
-    description:
-      "Learn how to choose the perfect domain name for your business with these expert tips. Discover strategies to make your domain memorable, brandable, and SEO-friendly for success.",
-    link: "/blogs/how-to-choose-the-perfect-domain-name-for-your-business",
-    imgSrc: "/car.png",
-    alt: "Nothing"
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   //   {
   //     id: 2,

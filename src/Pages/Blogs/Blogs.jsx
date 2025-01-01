@@ -7,11 +7,11 @@ function Blogs() {
   return (
     <>
       <Header />
-      <div className="my-10 flex flex-col px-5 gap-4 md:grid grid-cols-2 lg:grid-cols-3 md:items-center md:justify-items-center md:px-10 lg:px-14 lg:mx-auto">
+      <div className="my-10 flex flex-col px-5 gap-4 md:grid grid-cols-2 lg:grid-cols-3 md:items-center md:justify-items-center md:px-10 lg:px-14 lg:mx-auto bg-[#f6f9fc] py-4">
         {data.map((blog) => {
           return (
             <div
-              className="w-[256px] border-2 border-black rounded-md bg-slate-100"
+              className="w-[256px] border-2 border-black rounded-md bg-[#fffffff]"
               key={blog.id}
             >
               <img src={blog.imgSrc} alt={blog.alt} />
