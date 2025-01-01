@@ -16,7 +16,7 @@ function Blog1() {
       </Helmet>
       <Header />
 
-      <main className="max-sm:mx-2 sm:w-4/5 my-5 max-w-[800px] sm:mx-auto">
+      <main className="max-sm:mx-2 sm:w-4/5 my-5 max-w-[800px] sm:mx-auto text-lg">
         <img
           src="/a-women-is-solving-a-hosting-provides-problem.jpeg"
           alt="a women is solving a hosting provides problem"
@@ -25,7 +25,7 @@ function Blog1() {
         <h1 className="text-4xl mb-1 sm:text-5xl font-semibold">
           How to Choose the Perfect Domain Name for Your Business
         </h1>
-        <p className="text-lg">
+        <p>
           Choosing the right domain name is one of the most important steps in
           building your online presence. As someone who has worked extensively
           in the domain and hosting industry, I, Muntasir Hassan, understand how
@@ -39,7 +39,7 @@ function Blog1() {
           Why Your Domain Name Matters
         </h3>
 
-        <p className="text-lg">
+        <p>
           Your domain name serves as your digital identity. It’s the first
           impression people have of your website and a critical factor for:
         </p>
@@ -72,7 +72,7 @@ function Blog1() {
           <p className="mb-2 text-2xl font-medium">
             1. Keep It Short and Memorable
           </p>
-          <p className="text-lg">
+          <p>
             Short domain names are easier to remember and type. Aim for
             simplicity and avoid complex or lengthy names.
           </p>
@@ -96,7 +96,7 @@ function Blog1() {
           <p className="mb-2 text-2xl font-medium">
             3. Choose the Right Domain Extension
           </p>
-          <p className="text-lg">
+          <p>
             The .com extension is still the gold standard for global reach, but
             other extensions like .net, .org, or niche-specific ones (e.g.,
             .tech) can also work depending on your business.
@@ -107,7 +107,7 @@ function Blog1() {
           <p className="mb-2 text-2xl font-medium">
             4. Avoid Numbers and Hyphens
           </p>
-          <p className="text-lg">
+          <p>
             Numbers and hyphens make domains harder to communicate verbally and
             prone to typos. Stick to plain text for clarity.
           </p>
@@ -117,7 +117,7 @@ function Blog1() {
           <p className="mb-2 text-2xl font-medium">
             5. Incorporate Relevant Keywords
           </p>
-          <p className="text-lg">
+          <p>
             Adding keywords to your domain can help with SEO. For example, if
             you’re in the web hosting business, domains like ReliableHosting.com
             or ProDomainHub.com can be effective. But don’t overdo it—keep it
@@ -129,7 +129,7 @@ function Blog1() {
           <p className="mb-2 text-2xl font-medium">
             6. Check Availability and Uniqueness
           </p>
-          <p className="text-lg">
+          <p>
             Use a reliable domain search tool like{" "}
             <a
               href="https://www.hostseba.com/aff.php?aff=1074"
@@ -155,7 +155,7 @@ function Blog1() {
           How to Register Your Domain Name
         </h3>
 
-        <p className="text-lg">
+        <p>
           {" "}
           Once you’ve chosen the perfect domain name, follow these simple steps
           to register it:
