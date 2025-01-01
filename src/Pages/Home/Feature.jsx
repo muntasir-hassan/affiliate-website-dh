@@ -1,7 +1,7 @@
 function Feature() {
   return (
-    <div className=" mb-20 mt-10 flex flex-col px-5 gap-4 md:grid grid-cols-2 lg:grid-cols-3 md:items-center md:justify-center md:px-10 lg:px-14">
-      <div className="w-[300px] ">
+    <div className="mb-20 mt-10 flex flex-col px-5 gap-4 md:grid grid-cols-2 lg:grid-cols-3  md:justify-items-center md:px-10 lg:px-14">
+      <div className="w-[300px]">
         <div className="w-64 h-64 flex justify-center items-center">
           {" "}
           <img
